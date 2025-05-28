@@ -2,7 +2,8 @@
     <application
         android:label="sdktest"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        tools:replace="android:name">
         <activity
             android:name=".MainActivity"
             android:exported="true"
